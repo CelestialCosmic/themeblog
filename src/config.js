@@ -160,7 +160,7 @@ export default {
     /**
      * 文章默认图
      */
-    defaultCover: '//cdn.jsdelivr.net/gh/chanshiyucx/yoi/bg/defaultCover.jpg',
+    defaultCover: 'https://cdn.jsdelivr.net/gh/chanshiyucx/yoi/bg/defaultCover.jpg',
 
     /**
      * 赛钱箱
