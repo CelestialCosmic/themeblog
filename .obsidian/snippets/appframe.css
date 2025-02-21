@@ -1,0 +1,231 @@
+/* 隐藏左栏控件 */
+.workspace-ribbon:not(:hover) .workspace-ribbon-collapse-btn, 
+.workspace-ribbon:not(:hover) .side-dock-actions, 
+.workspace-ribbon:not(:hover) .side-dock-settings {
+  display:none; 
+  transition: all 300ms ease-in-out;
+}
+
+/* 显示左栏控件 */
+.workspace-ribbon:not(:hover) {
+  transition: all 300ms ease-in-out;
+}
+
+/* 维持左栏位置 */
+div.sidebar-toggle-button.mod-left{
+  width: auto;
+  position: relative;
+}
+
+/* 缩小左栏 */
+.workspace-ribbon{
+  flex: none;
+  padding: 0;
+  width: auto;
+}
+
+/* 隐藏左栏最顶部 */
+.workspace-ribbon.mod-left{
+  margin-top: 0;
+}
+.workspace-ribbon.mod-left::before{
+  content: none;
+}
+
+/* 缩小顶栏 */
+body{
+  --header-height:30px;
+}
+body.tab-float .mod-root .workspace-tab-header-container-inner{
+  padding: 1px 1px 0;
+}
+
+/* 通知栏颜色（由 maple 代替） */
+/* .notice{
+  background-color: var(--accent-inactive);
+} */
+
+/* .workspace-ribbon .sidebar-toggle-button{
+  padding: 0;
+  width: 0;
+} */
+
+/* body.tab-float .workspace-tab-header-new-tab{
+  margin: 0 0 0 0;
+} */
+
+/* body:not(.file-icon-remove) .workspace-leaf-content[data-type="file-explorer"] .nav-file-title[data-path$=".excalidraw.md"]::before{
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='h-5 w-5' viewBox='0 0 20 20' fill='currentColor'%3E%3Cpath fill-rule='evenodd' d='M3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z' clip-rule='evenodd' /%3E%3C/svg%3E");
+} */
+
+/* .wb-icon-list-container,.surfing-settings-icon{
+  display: none;
+} */
+
+/* .view-header{
+  margin-top:5px;
+} */
+
+/* [aria-label]:hover:after,[aria-label]:focus:after{
+  color: var(--accent-inactive);
+} */
+
+/* var(--block-outline-width) solid var(--accent-inactive) */
+/* .codeblock-customizer-line-number-first{
+  border-top-left-radius: var(--radius-l) !important;
+} */
+/* .codeblock-customizer-line-number-last{
+  border-bottom-left-radius: var(--radius-l) !important;
+} */
+
+/* .workspace .mod-root .workspace-tab-header-inner::after{
+  height: 15px;
+} */
+
+/* 当前所在行颜色 */
+body:is(:not(.css-settings-manager), .line-active-enable) .workspace-leaf.mod-active .markdown-source-view .cm-scroller .cm-line.cm-active{
+  background-color: rgba(247, 194, 66,0.35) !important;
+}
+/* 修正 maple 未知语言时的错误 */
+body:is(:not(.css-settings-manager), .code-language) .markdown-rendered pre[class*=language-]::before {
+  content: "unknown language";
+}
+
+/* 编辑模式代码颜色 */
+.cm-inline-code{
+  color: var(--codeblock-customizer-inline-code-text-color);
+}
+
+/* 非多行代码块字体颜色 */
+.markdown-rendered code{
+  color:var(--color-red)
+}
+/* codeblock 圆角预览模式 */
+.codeblock-customizer pre.codeblock-customizer-pre{
+  border-radius: var(--radius-l) !important;
+}
+/* codeblock 折叠栏 */
+.codeblock-customizer-header-collapse{
+  right: 30px !important; 
+}
+/* codeblock 复制框 */
+.codeblock-customizer-collapseIconRight:not(.codeblock-customizer-show-delete-code-button) .markdown-source-view.mod-cm6 .codeblock-customizer-line .codeblock-customizer-copy-code,
+button.codeblock-customizer-copy-code-button{
+  display: none;  
+}
+/* 使编辑模式代码框边缘与预览模式一致 */
+.cm-line.HyperMD-codeblock{
+  border-left: var(--block-outline-width) solid var(--accent-inactive) !important;
+  border-right: var(--block-outline-width) solid var(--accent-inactive) !important;
+}
+.cm-line.HyperMD-codeblock.HyperMD-codeblock-begin-bg{
+  border-top: var(--block-outline-width) solid var(--accent-inactive) !important;
+}
+.cm-s-obsidian .cm-line.HyperMD-codeblock.HyperMD-codeblock-end-bg{
+  border-bottom: var(--block-outline-width) solid var(--accent-inactive) !important;  
+}
+/* 预设颜色修改 */
+
+:is(.theme-light, .theme-light .print) {
+  --color-red: rgba(var(--color-red-rgb), var(--color-opacity)) !important;
+  --color-red-rgb: 210, 75, 75 !important;
+  --color-green: rgba(var(--color-green-rgb), var(--color-opacity)) !important;
+  --color-green-rgb: 94, 179, 77 !important;
+  --color-yellow: rgba(var(--color-yellow-rgb), var(--color-opacity)) !important;
+  --color-yellow-rgb: 222, 170, 0 !important;
+  --color-orange: rgba(var(--color-orange-rgb), var(--color-opacity)) !important;
+  --color-orange-rgb: 204, 148, 36 !important;
+  --color-blue: rgba(var(--color-blue-rgb), var(--color-opacity)) !important;
+  --color-blue-rgb: 24, 168, 220 !important;
+  --color-cyan: rgba(var(--color-cyan-rgb), var(--color-opacity)) !important;
+  --color-cyan-rgb: 54, 181, 134 !important;
+  --color-purple: rgba(var(--color-purple-rgb), var(--color-opacity)) !important;
+  --color-purple-rgb: 128, 120, 186 !important;
+  --background-primary-hsl: var(--accent-h), calc(var(--accent-s) - 12%), 97%;
+  --background-primary: hsl(var(--background-primary-hsl));
+  --background-secondary-hsl: calc(var(--accent-h) - 18), calc(var(--accent-s) - 4%), calc(100% - (100% - var(--accent-l)) / 8);
+  --background-secondary: hsl(var(--background-secondary-hsl));
+  --background-modifier-hover: hsl(var(--accent-h), calc(var(--accent-s) * 1.2), min(var(--accent-l) * 2, 90%));
+  --accent-active: hsl(var(--accent-h),
+      var(--accent-s),
+      calc(var(--accent-l) + 4%));
+  --accent-inactive: hsl(var(--accent-h),
+      calc(var(--accent-s) - 4%),
+      calc(var(--accent-l) + 24%));
+  --text-on-accent: #fafafa !important;
+  --frame-background-color: hsl(var(--accent-h),
+      var(--accent-s),
+      calc(var(--accent-l) + 32%));
+  --frame-outline-color: hsl(var(--accent-h),
+      var(--accent-s),
+      calc(var(--accent-l) + 23.5%));
+  --frame-muted-color: hsl(var(--accent-h),
+      calc(var(--accent-s) - 20%),
+      calc(var(--accent-l) - 10%));
+  --md-container-bg: var(--setting-md-container-bg, hsla(calc(var(--accent-h) + 8),
+        calc(var(--accent-s) / 1.2),
+        calc(100% - (100% - var(--accent-l)) / 6),
+        70%));
+  --color-opacity: 1;
+}
+
+/* 文字加粗 */
+
+body {
+  --bold-color: var(--setting-text-bold-color, var(--color-yellow)) !important;
+  --italic-color: var(--setting-text-italic-color, var(--color-red)) !important;
+}
+
+strong,
+.cm-strong {
+  --blockquote-color: var(--bold-color);
+  text-decoration: var(--setting-text-bold-style);
+  font-family: var(--setting-text-bold-font, var(--font-text));
+}
+
+
+:is(.theme-dark, .theme-dark .print) {
+  --color-red: rgba(var(--color-red-rgb), var(--color-opacity)) !important;
+  --color-red-rgb: 244, 154, 154 !important;
+  --color-green: rgba(var(--color-green-rgb), var(--color-opacity)) !important;
+  --color-green-rgb: 154, 214, 164 !important;
+  --color-yellow: rgba(var(--color-yellow-rgb), var(--color-opacity)) !important;
+  --color-yellow-rgb: 239, 187, 36 !important;
+  --color-orange: rgba(var(--color-orange-rgb), var(--color-opacity)) !important;
+  --color-orange-rgb: 244, 184, 154 !important;
+  --color-blue: rgba(var(--color-blue-rgb), var(--color-opacity)) !important;
+  --color-blue-rgb: 133, 194, 255 !important;
+  --color-cyan: rgba(var(--color-cyan-rgb), var(--color-opacity)) !important;
+  --color-cyan-rgb: 168, 240, 240 !important;
+  --color-purple: rgba(var(--color-purple-rgb), var(--color-opacity)) !important;
+  --color-purple-rgb: 197, 190, 249 !important;
+  --background-primary: hsl(var(--background-primary-hsl));
+  --background-primary-hsl: var(--accent-h), 4%, calc(var(--accent-l) / 4);
+  --background-secondary: hsl(calc(var(--accent-h) + 8),
+      calc(var(--accent-s) / 6),
+      calc(var(--accent-l) / 4));
+  --background-secondary-hsl: calc(var(--accent-h) + 8),
+    calc(var(--accent-s) / 6), calc(var(--accent-l) / 4);
+  --background-modifier-hover: hsl(var(--accent-h),
+      var(--accent-s),
+      calc(var(--accent-l) / 3));
+  --accent-active: hsl(var(--accent-h),
+      var(--accent-s),
+      calc(var(--accent-l) - 16%));
+  --accent-inactive: hsl(var(--accent-h),
+      calc(var(--accent-s) + 24%),
+      calc(var(--accent-l) - 32%));
+  --frame-background-color: hsl(var(--accent-h), 12%, 20%);
+  --frame-outline-color: hsl(calc(var(--accent-h) - 24),
+      calc(var(--accent-s) + 6%),
+      24%);
+  --frame-muted-color: hsl(var(--accent-h),
+      calc(var(--accent-s) - 20%),
+      calc(var(--accent-l) + 10%));
+  --text-normal: hsla(var(--accent-h), 50%, 94%, 75%);
+  --text-on-accent: #eaeaea !important;
+  --md-container-bg: var(--setting-md-container-bg, hsl(calc(var(--accent-h) - 4), 18%, 9%));
+  --color-opacity: 0.85;
+  --color-red: rgba(var(--color-red-rgb), var(--color-opacity)) !important;
+  --color-red-rgb: 255, 70, 70 !important;
+}

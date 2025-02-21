@@ -1,0 +1,1 @@
+在 `about:config` 中将 `devtools.debugger.remote-enabled` 调整为 True

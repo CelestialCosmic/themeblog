@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "45211c7692363e83",
+    "type": "split",
+    "children": [
+      {
+        "id": "cee5de16f94cb9b1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2c9eff446fc86d16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ai/导入模型.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "导入模型"
+            }
+          },
+          {
+            "id": "bf67ed03b6f00ef1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ai/自然语言处理.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "自然语言处理"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4c024933a48e5850",
+    "type": "split",
+    "children": [
+      {
+        "id": "e3408d7d04900350",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "051a9b8e49cace41",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "073c131146132880",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-tab-tree",
+              "state": {},
+              "icon": "chrome",
+              "title": "Surfing Tab Tree"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 379.5
+  },
+  "right": {
+    "id": "1c7bde81ea6aaed1",
+    "type": "split",
+    "children": [
+      {
+        "id": "375899b759d3e714",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "55fa38337995e18d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "麒麟V10 部署 deepseek.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "麒麟V10 部署 deepseek 的大纲"
+            }
+          },
+          {
+            "id": "1cabfd97e12fce8d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "a48126fa4c93b06f",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "dices",
+              "title": "Dice Tray"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 370.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "markdown-table-editor:Open Markdown Table Editor": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "canvas:新建白板": false,
+      "html-server:Turn Http Server On": false,
+      "html-server:Turn Http Server Off": false
+    }
+  },
+  "active": "bf67ed03b6f00ef1",
+  "lastOpenFiles": [
+    "ai/导入模型.md",
+    "ai/自然语言处理.md",
+    "ai/Drawing 2025-02-15 13.25.40.excalidraw.md",
+    "ai/微调 AI.md",
+    "麒麟V10 部署 deepseek.md",
+    "ai/ollama 优化.md",
+    "文件头.md",
+    "ai/HPN7.0.md",
+    "屏幕共享.md",
+    "ai/AI 服务器 nginx 前置.md",
+    "内网自建邮件服务器.md",
+    "安全管理平台.md",
+    "ai",
+    "中文正则表达式.md",
+    "flutter踩坑2.md",
+    "cisp-dsg/DSG课件/08.数据安全技术_Part2_v2.1.pdf",
+    "cisp-dsg/DSG课件/07.数据安全技术_Part1_v2.1.pdf",
+    "cisp-dsg/DSG课件/06.数据安全策略_v2.1.pdf",
+    "cisp-dsg/note/信息安全支撑技术.md",
+    "cisp-dsg/DSG课件/05.数据安全基础_v2.1.pdf",
+    "cisp-dsg/DSG课件/04.信息安全支撑技术_v2.1.pdf",
+    "cisp-dsg/DSG课件/03.信息安全监管_v2.1.pdf",
+    "cisp-dsg/DSG课件/02.信息安全评估_v2.1.pdf",
+    "cisp-dsg/DSG课件/01.信息安全保障_v2.1.pdf",
+    "cisp-dsg/note/企业安全架构.md",
+    "cisp-dsg/note/数据安全.md",
+    "安卓调试 gdb 与 frida.md",
+    "cisp-dsg/note/数据安全策略（等保2.0）.md",
+    "cisp-dsg/DSG课件/09.数据安全评估_V2.1.pdf",
+    "cisp-dsg/note/安全评估与实施.md",
+    "cisp-dsg/note/数据安全技术.md",
+    "cisp-dsg/note/数据安全基础.md",
+    "cisp-dsg/note/数据安全评估与治理.md",
+    "cisp-dsg/主导图.canvas",
+    "cisp-dsg/所有理解点.md",
+    "cisp-dsg/note/信息安全的新领域.md",
+    "cisp-dsg/note/信息安全.md",
+    "images/Pasted image 20241031151401.png",
+    "images/Pasted image 20241031121143.png",
+    "images/Pasted image 20241031120819.png",
+    "images/Pasted image 20241031120706.png",
+    "images/Pasted image 20241031112046.png",
+    "images/Pasted image 20241031103658.png",
+    "images/Pasted image 20241031103629.png",
+    "images/Pasted image 20241031103030.png",
+    "images/Pasted image 20241031092332.png",
+    "images/Pasted image 20241031091359.png",
+    "Untitled.canvas"
+  ]
+}

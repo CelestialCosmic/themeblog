@@ -1,0 +1,15 @@
+{
+  "cssTheme": "Maple",
+  "baseFontSize": 18,
+  "theme": "moonstone",
+  "accentColor": "#58a5e4",
+  "showViewHeader": true,
+  "nativeMenus": false,
+  "translucency": false,
+  "monospaceFontFamily": "IntelOne Mono",
+  "enabledCssSnippets": [
+    "print",
+    "appframe",
+    "pdf"
+  ]
+}
