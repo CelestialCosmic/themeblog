@@ -1,0 +1,189 @@
+{
+  "main": {
+    "id": "45211c7692363e83",
+    "type": "split",
+    "children": [
+      {
+        "id": "6f4a9f28471eb944",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "14ce63efac98459a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4c024933a48e5850",
+    "type": "split",
+    "children": [
+      {
+        "id": "e3408d7d04900350",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "051a9b8e49cace41",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "6a0465617a579d1e",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-tab-tree",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "插件不再活动"
+            }
+          },
+          {
+            "id": "ea63ab84be6c2024",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-tab-tree",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "插件不再活动"
+            }
+          },
+          {
+            "id": "00539ee90a804399",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-tab-tree",
+              "state": {},
+              "icon": "chrome",
+              "title": "Surfing Tab Tree"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 241.5
+  },
+  "right": {
+    "id": "1c7bde81ea6aaed1",
+    "type": "split",
+    "children": [
+      {
+        "id": "375899b759d3e714",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "55fa38337995e18d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "nginx.md"
+              },
+              "icon": "lucide-list",
+              "title": "nginx 的大纲"
+            }
+          }
+        ]
+      },
+      {
+        "id": "44fd35401cdc4d93",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1cabfd97e12fce8d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "u",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 269.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "markdown-table-editor:Open Markdown Table Editor": false
+    }
+  },
+  "active": "051a9b8e49cace41",
+  "lastOpenFiles": [
+    "archlinux deepseek 部署.md",
+    "AI模型部署方案.md",
+    "小米手势.md",
+    "images/Pasted image 20250220001410.png",
+    "images",
+    "err.md",
+    "Untitled.md",
+    "银从",
+    "加强的开局广告.md",
+    "draws/Drawing 2024-11-06 23.37.15.excalidraw.md",
+    "银从/银从法规2.md",
+    "nginx.md",
+    "银从/银从错题.md",
+    "记一个 unity 游戏破解.md",
+    "银从/银从法规.md",
+    "save.md",
+    "draws/未命名.md",
+    "draws/vxace.md",
+    "draws/images/Pasted image 20240406221343.png",
+    "draws/images/Pasted image 20240406221330.png",
+    "draws/images/Pasted image 20240406221323.png",
+    "draws/images/Pasted image 20240406221317.png",
+    "draws/images/Pasted image 20240406220921.png",
+    "draws/images/Pasted image 20240406220914.png",
+    "draws/images/Pasted image 20240406220904.png",
+    "draws/Drawing 2024-03-24 04.33.06.excalidraw.md",
+    "draws/media_crawler.md",
+    "draws/images/Pasted image 20240324142900.png",
+    "draws/images/Pasted image 20240324135743.png",
+    "draws/images",
+    "work/python-websocket.md",
+    "漏洞学习/免杀.md",
+    "work/修复由 applockerfltr 导致的蓝屏.md",
+    "漏洞学习/XXE.md",
+    "漏洞学习/electron 投毒.md",
+    "漏洞学习/PE结构.md",
+    "blog/恋恋的幻觉夜宴的怪bug.md",
+    "work/工作内容.md",
+    "draws/Drawing 2024-02-02 15.49.22.excalidraw.md",
+    "work",
+    "漏洞学习/images",
+    "note",
+    "新建文件夹",
+    "blog",
+    "漏洞学习/images 1",
+    "漏洞学习",
+    "Untitled.canvas",
+    "未命名.canvas"
+  ]
+}

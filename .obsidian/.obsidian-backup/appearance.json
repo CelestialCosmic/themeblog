@@ -1,0 +1,11 @@
+{
+  "cssTheme": "Maple",
+  "baseFontSize": 18,
+  "theme": "system",
+  "accentColor": "#58a5e4",
+  "showViewHeader": true,
+  "nativeMenus": false,
+  "translucency": false,
+  "monospaceFontFamily": "IntelOne Mono",
+  "enabledCssSnippets": []
+}

@@ -1,0 +1,80 @@
+{
+  "main": {
+    "id": "45211c7692363e83",
+    "type": "split",
+    "children": [
+      {
+        "id": "1382d704d3a81d37",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "NAI 把玩杂谈.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4c024933a48e5850",
+    "type": "split",
+    "children": [
+      {
+        "id": "30ae1f08de2ff2b4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fac02cab87212fe0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "fc08f47ad826f573",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 235.5
+  },
+  "right": {
+    "id": "1c7bde81ea6aaed1",
+    "type": "split",
+    "children": [],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "1382d704d3a81d37",
+  "lastOpenFiles": [
+    "网络备忘录.md",
+    "密码学.md",
+    "微机原理.md",
+    "日语生词记录.md",
+    "dosbox 环境搭建与对栈的理解.md",
+    "archlinux/主题配置.md",
+    "tech/自制bilibili重命名工具.md",
+    "tech/汇编笔记（二）.md",
+    "tech/汇编笔记（一）.md",
+    "tech/汇编笔记（三）.md"
+  ]
+}

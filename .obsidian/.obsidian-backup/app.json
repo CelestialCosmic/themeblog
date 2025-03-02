@@ -1,0 +1,21 @@
+{
+  "legacyEditor": false,
+  "livePreview": true,
+  "fileSortOrder": "byModifiedTime",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": true,
+    "margin": "1",
+    "downscalePercent": 50
+  },
+  "alwaysUpdateLinks": true,
+  "showInlineTitle": true,
+  "promptDelete": false,
+  "attachmentFolderPath": "./images",
+  "newFileLocation": "current",
+  "defaultViewMode": "preview",
+  "showLineNumber": false,
+  "spellcheck": false,
+  "autoConvertHtml": true
+}
