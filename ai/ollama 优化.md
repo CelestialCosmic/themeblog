@@ -1,3 +1,4 @@
+[大模型使用llama.cpp转换gguf格式并量化 | 新手炼丹记录(2)\_llama-quantize-CSDN博客](https://blog.csdn.net/m0_73365120/article/details/141901884)
 原文地址：[Ollama 优化 -- num_ctx 配置，释放模型能力](https://zhuanlan.zhihu.com/p/719200177)
 ### 默认配置
 
