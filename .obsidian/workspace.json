@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "5205853f50250fef",
+        "id": "b6978b9cf2621753",
         "type": "tabs",
         "children": [
           {
-            "id": "9c14f9ff60d1137d",
+            "id": "15c5f771570f603c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "ai/ollama 优化.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "ollama 优化"
             }
           }
         ]
@@ -73,12 +78,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "ai/ollama 优化.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "ollama 优化 的大纲"
             }
           },
           {
@@ -123,51 +129,51 @@
       "html-server:Turn Http Server Off": false
     }
   },
-  "active": "9c14f9ff60d1137d",
+  "active": "051a9b8e49cace41",
   "lastOpenFiles": [
-    "ai/AI 基础知识.md",
-    "ai/AI 服务器 nginx 前置.md",
-    "ai/deepseek 开源周总结.md",
-    "ai/微调 AI.md",
-    "ai/ollama 优化.md",
-    "ai/未命名.md",
+    "ai/archlinux deepseek 部署.md",
+    "碎片内容/小米手势.md",
+    "碎片内容/加强的开局广告.md",
+    "碎片内容/rpgmaker保存.md",
+    "rpgmaker保存.md",
+    "err.md",
+    "save.md",
+    "nginx.md",
+    "Untitled.md",
+    "加强的开局广告.md",
+    "小米手势.md",
+    "archlinux deepseek 部署.md",
+    "ai/ai基础",
+    "ai/ai基础/AI 基础知识.md",
     "ai/麒麟V10 部署 deepseek.md",
-    "ai/导入模型.md",
+    "ai/ollama 优化.md",
+    "todo.md",
+    "ai/ai训练.md",
+    "ai/AI 服务器 nginx 前置.md",
+    "ai/HPN7.0.md",
+    "ai/Drawing 2025-02-15 13.25.40.excalidraw.md",
+    "ai/deepseek 开源周总结.md",
+    "ai/自然语言处理.md",
+    "ai/微调 AI.md",
+    "ai/ai运维/AI应用监控与运维.md",
+    "ai/ai交易监控/AI 异常监控.md",
+    "ai/ai部署/解决模型消失的问题.md",
     "ai/images/gguf-spec.png",
-    "ai/ai交易监控/AI 交易监控-copilot.md",
-    "未命名.md",
+    "ai/ai部署",
     "ai/images/40f81dad82708dc.webp",
     "ai/images/Pasted image 20250226141605.png",
     "ai/images/Pasted image 20250226140211.png",
     "ai/images/Pasted image 20250226135626.png",
-    "ai/ai训练.md",
     "ai/images/Pasted image 20250226133901.png",
     "ai/images/Pasted image 20250226133805.png",
     "ai/images",
-    "ai/自然语言处理.md",
-    "Excalidraw/Drawing 2025-02-21 10.19.29.excalidraw.md",
-    "ai/ai交易监控/AI应用监控与运维.md",
     "ai/ai交易监控",
     "ai/ai运维",
-    "Excalidraw/Drawing 2024-10-31 08.16.24.excalidraw.md",
-    "ai/运营指标监控.md",
-    "ai/Drawing 2025-02-15 13.25.40.excalidraw.md",
-    "麒麟V10 部署 deepseek.md",
-    "文件头.md",
-    "ai/HPN7.0.md",
-    "屏幕共享.md",
-    "内网自建邮件服务器.md",
-    "安全管理平台.md",
     "ai",
-    "中文正则表达式.md",
-    "flutter踩坑2.md",
     "cisp-dsg/DSG课件/08.数据安全技术_Part2_v2.1.pdf",
     "cisp-dsg/DSG课件/07.数据安全技术_Part1_v2.1.pdf",
     "cisp-dsg/DSG课件/06.数据安全策略_v2.1.pdf",
-    "cisp-dsg/note/信息安全支撑技术.md",
     "cisp-dsg/DSG课件/05.数据安全基础_v2.1.pdf",
-    "cisp-dsg/DSG课件/04.信息安全支撑技术_v2.1.pdf",
-    "cisp-dsg/DSG课件/03.信息安全监管_v2.1.pdf",
     "cisp-dsg/主导图.canvas",
     "images/Pasted image 20241031151401.png",
     "images/Pasted image 20241031121143.png",

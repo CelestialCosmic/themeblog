@@ -1,0 +1,1 @@
+code=355	脚本	parameters: ["$savec.set(\"all_view\", true)"]
