@@ -1,6 +1,5 @@
 ## 总结
 [GitHub - deepseek-ai/open-infra-index: Production-tested AI infrastructure tools for efficient AGI development and community-driven innovation](https://github.com/deepseek-ai/open-infra-index)
-
 ## 第一日：FlashMLA（MLA 解码内核优化）
 [GitHub - deepseek-ai/FlashMLA: FlashMLA: Efficient MLA Decoding Kernel for Hopper GPUs](https://github.com/deepseek-ai/FlashMLA)
 FlashMLA 是针对 Hopper GPU 优化的高效 MLA 解码内核，专为处理可变长度序列而设计，优化了显卡的运算能力
@@ -53,21 +52,24 @@ DeepSeek 改良后的高性能的通用矩阵乘法（GEMM），优化了 MoE �
 - FoundationDB 7.1^
 - Rust toolchain
 
-软件包：
+依赖软件包：
 ```
 cmake libuv1-dev liblz4-dev liblzma-dev libdouble-conversion-dev libprocps-dev libdwarf-dev libunwind-dev libaio-dev libgflags-dev libgoogle-glog-dev libgtest-dev libgmock-dev clang-format-14 clang-14 clang-tidy-14 lld-14 libgoogle-perftools-dev google-perftools libssl-dev gcc-12 g++-12 libboost-all-dev
 ```
-
 
 ### 知识基础
 #### 分布式文件存储系统
 分布式文件存储系统的**数据存储在多台机器上**，也就是存储节点，由多个节点构成分布式集群，节点上的小的分布式文件系统组合成总的分布式文件系统，由**主服务器对总的文件系统进行管理**。用户任意访问某一台主机，都能获取到自己想要的目标文件
 > 其与 RAID（冗余磁盘阵列）不同，分布式文件存储系统是多机器多硬盘，RAID 是单机器多硬盘
 > 虽然存在**分布式 RAID**，但较为少见
-> 其与**存储桶**也不同，存储桶是优于传统的文件系统或关系数据库的对象存储，虽然是分布式的，但不属于分布式文件存储系统
+> 其与**存储桶**也不同，存储桶优于传统的文件系统或关系数据库的对象存储，虽然是分布式的，但不属于分布式文件存储系统
 
 #### KVCache
 KVCache（键值缓存）是大模型推理中常用的优化技术，在各种类型的模型，尤其是 Transformer 中，它通过缓存每个 token 在经过 Transformer 时生成的键（Key）和值（Value）来减少重复计算，从而提高推理速度，其本来是存放于**内存**中的，但借助 **3FS-KV**，也就是 3FS 变种，专注于共享存储分布式数据处理系统，使得 KVCache 可以放到 **SSD** 中，进一步优化模型的内存需求
 *但 3FS-KV 不在本次开源的范围内*
 
+## 第六日：基础架构分享
+[One More Thing, DeepSeek-V3/R1 Inference System Overview](https://github.com/deepseek-ai/open-infra-index/blob/main/202502OpenSourceWeek/day_6_one_more_thing_deepseekV3R1_inference_system_overview.md)
+官方中文全文：[DeepSeek-V3 / R1 推理系统概览](https://zhuanlan.zhihu.com/p/27181462601)
 
+解释了 deepseek 通过哪些技术，使得其比其他模型消耗更少，可行性更高
