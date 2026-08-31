@@ -4,71 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "b6978b9cf2621753",
+        "id": "2031f4b59d11a026",
         "type": "tabs",
         "children": [
           {
-            "id": "7f6935c7e547eb3a",
+            "id": "50ed46a8a4360007",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ai/ai训练/ai训练.md",
+                "file": "碎片内容/RPGMakerMZ 代码事件记录.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "ai训练"
-            }
-          },
-          {
-            "id": "8b98f8cf9a791331",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ai/archlinux deepseek 部署.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "archlinux deepseek 部署"
-            }
-          },
-          {
-            "id": "fc156ba5248c2ca5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ai/AI大模型的基础知识与部署（整合版）.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "AI大模型的基础知识与部署（整合版）"
-            }
-          },
-          {
-            "id": "a8f68e6a520e4ff3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ai/ai应用.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "ai应用"
+              "title": "RPGMakerMZ 代码事件记录"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,7 +42,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -98,7 +54,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 383.5
+    "width": 387.5
   },
   "right": {
     "id": "1c7bde81ea6aaed1",
@@ -114,13 +70,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ai/AI大模型的基础知识与部署（整合版）.md",
+                "file": "碎片内容/niagara 隐藏默认应用提示.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AI大模型的基础知识与部署（整合版） 的大纲"
+              "title": "niagara 隐藏默认应用提示 的大纲"
             }
           },
           {
@@ -129,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "model size",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -140,7 +96,8 @@
               "title": "搜索"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -148,60 +105,62 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:新建数据库": false,
       "canvas:新建白板": false,
       "markdown-table-editor:Open Markdown Table Editor": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "remotely-save:Remotely Save": false
     }
   },
-  "active": "fc156ba5248c2ca5",
+  "active": "50ed46a8a4360007",
   "lastOpenFiles": [
-    "ai/archlinux deepseek 部署.md",
-    "ai/AI大模型的基础知识与部署（整合版）.md",
-    "ai/ai应用.md",
-    "ai/ai训练/ai训练.md",
-    "ai/ai基础/AI 基础知识.md",
-    "ai/ai训练/微调 AI.md",
-    "ai/ai交易监控/AI 异常监控.md",
-    "ai/ai训练",
-    "ai/deepseek 开源周总结.md",
-    "ai/ai基础/images/e73143a45d011be29adda0609e5985b5477470.jpg",
-    "ai/ai基础/images",
-    "ai/ollama 优化.md",
-    "Clippings/obsidian web clip - 必应.md",
-    "Clippings",
-    "碎片内容/小米手势.md",
+    "碎片内容/images/Pasted image 20260823062142.png",
     "碎片内容/加强的开局广告.md",
-    "碎片内容/rpgmaker保存.md",
-    "rpgmaker保存.md",
-    "err.md",
-    "save.md",
-    "nginx.md",
-    "Untitled.md",
-    "加强的开局广告.md",
-    "小米手势.md",
-    "archlinux deepseek 部署.md",
-    "ai/ai基础",
-    "ai/麒麟V10 部署 deepseek.md",
+    "vul/渗透步骤与心得.md",
+    "blog/离线部署 deepseek harness.md",
+    "blog/IDA 配置 python 和 mcp.md",
+    "IDA 配置 python 和 mcp.md",
+    "blog/救活树莓派4B.md",
+    "碎片内容/编码.md",
     "todo.md",
-    "ai/AI 服务器 nginx 前置.md",
-    "ai/HPN7.0.md",
-    "ai/Drawing 2025-02-15 13.25.40.excalidraw.md",
-    "ai/images/gguf-spec.png",
-    "ai/ai部署",
-    "ai/images/40f81dad82708dc.webp",
-    "ai/images/Pasted image 20250226141605.png",
-    "ai/images/Pasted image 20250226140211.png",
-    "ai/images/Pasted image 20250226135626.png",
-    "ai/images/Pasted image 20250226133901.png",
-    "ai/images/Pasted image 20250226133805.png",
-    "ai/images",
-    "ai/ai交易监控",
-    "ai/ai运维",
-    "ai",
-    "cisp-dsg/DSG课件/08.数据安全技术_Part2_v2.1.pdf",
+    "碎片内容/RPGMakerMZ 代码事件记录.md",
+    "碎片内容/通用金融信息传输系统业务及网络安全技术培训班.md",
+    "未命名.base",
+    "救活树莓派4B.md",
+    "碎片内容/笔记提炼.md",
+    "碎片内容/images/Ek5dbqAkK35wUCfX.mp4",
+    "碎片内容/等保宣贯.md",
+    "碎片内容/安全标准.md",
+    "碎片内容/未命名.base",
+    "碎片内容/APPIMAGE 打包.md",
+    "images/Pasted image 20260726122906.png",
+    "wsl2+plasma-wayland.md",
+    "碎片内容/fastjson 1.2.83 gadget free.md",
+    "rs-test-folder-_MLPCu63Z8xSIjFe6Ut5U",
+    "images/Pasted image 20260718235705.png",
+    "images/Pasted image 20260718193319.png",
+    "images/Pasted image 20260714003836.png",
+    "images/Pasted image 20260714003817.png",
+    "images/Pasted image 20260714003803.png",
+    "images/Pasted image 20260714003743.png",
+    "images/Pasted image 20260714003729.png",
+    "images/Pasted image 20260714003707.png",
+    "images/Pasted image 20260713233741.png",
+    "blog/フェアリースイートデイズ接客逻辑解析.md",
+    "vul/代码审计.md",
+    "vul/碎片知识.md",
+    "vul/各类CMS指纹识别.md",
+    "vul/点击劫持.md",
+    "碎片内容/键盘选择.md",
+    "碎片内容/pip 下载.md",
+    "blog/未命名.md",
+    "blog/images",
+    "Touhou-Labyrinth-Tri/Save01/SHD01.ngd",
+    "Touhou-Labyrinth-Tri/Save01/PKO01.ngd",
+    "Touhou-Labyrinth-Tri/Save01/PGD01.ngd",
+    "Touhou-Labyrinth-Tri/Save01/EVF01.ngd",
+    "Touhou-Labyrinth-Tri/Save01/EEN01.ngd",
     "cisp-dsg/主导图.canvas",
-    "images/Pasted image 20241031151401.png",
-    "images/Pasted image 20241031121143.png",
     "Untitled.canvas"
   ]
 }

@@ -7,7 +7,7 @@
     "pageSize": "A4",
     "landscape": false,
     "margin": "2",
-    "downscalePercent": 100
+    "downscalePercent": 76
   },
   "alwaysUpdateLinks": true,
   "showInlineTitle": true,
@@ -17,5 +17,6 @@
   "defaultViewMode": "preview",
   "showLineNumber": false,
   "spellcheck": false,
-  "autoConvertHtml": true
+  "autoConvertHtml": true,
+  "readableLineLength": true
 }

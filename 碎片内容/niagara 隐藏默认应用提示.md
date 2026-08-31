@@ -1,0 +1,1 @@
+`/suppress set launcher prompt`
